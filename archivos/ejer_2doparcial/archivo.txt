@@ -1,0 +1,4 @@
+lionel,messi,1
+lucha,aymar,3
+julián,álvarez,1
+manu,ginobili,5
