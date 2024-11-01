@@ -12,8 +12,17 @@ df = pd.DataFrame(data, index = labels )
 #print(df.iloc[:5])   desde cual y hasta cual
 #print(df.head(2))  #devuelve las columnas q le pedimos 
 #print(df.loc[:,['age', 'visits']])  puedo elegir que columnas mostrar
-print(df.loc[['a', 'c'],['age', 'visits']])
+print(df.loc[['a', 'c'],['age', 'visits']])  #puedo hacerlo por filas (primero) y tambien por columnas
+
+#voy por el minuto 20:27 de este video
+#print([df['visits'] == 2])
+
+# NaN -->  quiere decir q algo es nulo # para preguntar si es nulo
+print(df[df['visits'].isnull()])
+
+#concatenando condiciones
+#df[(df ['animal'] == 'cat') | (df ['age'] <3 ) ] #and -> &    or -> |     not -> coso de la ñ
+
+print(df.loc[:, 'animal', 'age'])
 
 
-
-#print(df)
