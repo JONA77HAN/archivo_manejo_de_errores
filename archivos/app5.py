@@ -1,0 +1,1 @@
+archivo = open('C:/Users/Usuario/Desktop/YONI/PC/archivos/simple.txt', 'w')

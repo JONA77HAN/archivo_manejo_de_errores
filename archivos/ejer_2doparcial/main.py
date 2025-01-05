@@ -3,3 +3,4 @@ contenido = archivo.readlines()
 archivo.close()
 
 print(contenido)
+

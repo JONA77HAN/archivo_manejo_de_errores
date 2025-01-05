@@ -1,5 +1,5 @@
 archivo = open('C:/Users/Usuario/Desktop/YONI/PC/archivos/indio.txt')
-contenido = archivo.readlines()
+contenido = archivo.readline()
 archivo.close()
 
 contador = 0
