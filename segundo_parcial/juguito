@@ -1,0 +1,9 @@
+import random
+
+def generar_palabras():
+    palabras = ["sol", "luna", "estrella", "mar", "montaña", "rio", "bosque", "nube", "viento", "fuego"]
+    seleccionadas = random.sample(palabras, 5)
+    return seleccionadas
+
+if __name__ == "__main__":
+    print("Palabras random:", generar_palabras())
